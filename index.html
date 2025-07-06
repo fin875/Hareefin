@@ -1,12 +1,15 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="th">
 
 <head>
   <meta charset="UTF-8" />
+  <meta name="description" content="คำอวยพรวันเกิดส่วนตัว" />
+  <meta name="author" content="afsify" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
-  <title>Happy Birthday!!! :)</title>
+  <title>สุขสันต์วันเกิด!!! :)</title>
   <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,45 +20,54 @@
 
 <body>
 
-    <audio class="song" loop autoplay>
+    <audio class="song" loop>
         <source src="./music/hbd.mpeg">
         </source>
-        Your browser isn't invited for super fun audio time.
+        เบราว์เซอร์ของคุณไม่รองรับเสียงประกอบ
     </audio>
 
     <div class="container">
         <div class="one">
             <h1 class="one">
-                Hi
-                <span id="name">Irene</span>
+                สวัสดี
+                <span id="name">Aris</span>
             </h1>
-            <p class="two" id="greetingText">I really like your name btw!</p>
+            <p class="two" id="greetingText">ชื่อนี้ฟังดูดีจริงๆ แต่ผมจะเรียกว่าอาจารย์เสมอครับ!</p>
         </div>
 
         <div class="three">
-            <p>It's your birthday!! :D</p>
+            <p>วันเกิดของอาจารย์แล้วครับ!! :D</p>
+            <div class="birthday-info">
+                <div class="date-container">
+                    <span id="day">4</span> <span id="month">กรกฎาคม</span> <span id="year">2024</span>
+                </div>
+            </div>
         </div>
 
         <div class="four">
+            <div class="profile">
+                <img src="./img/hareefin_new.jpg" alt="รูปโปรไฟล์" class="profile-image" />
+                <h2 class="profile-name">Hareefin 💚</h2>
+            </div>
             <div class="text-box">
                 <p class="hbd-chatbox">
-                Happy birthday to youu!! Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur quisquam amet ipsam vitae, voluptatum architecto aliquid id quo error tempora quos aperiam magni necessitatibus quas ut, possimus nesciunt nam ad.
+                    สุขสันต์วันเกิดนะค้าบอาจารย์ 🎂🌟 ขอให้อาจารย์มีความสุขมาก ๆ ในทุกวัน สุขภาพแข็งแรง หัวเราะบ่อย ๆ เจอแต่คนที่รักและเข้าใจ อยู่เป็นแรงบันดาลใจให้พวกเราต่อไปอีกนานๆเลยนะคับ ขอให้ชีวิตเต็มไปด้วยพลังบวกและความสบายใจ ทุกวันเป็นวันที่ดี… แบบที่อาจารย์สมควรได้รับคับ 🧡
                 </p>
-                <p class="fake-btn">Send</p>
+                <p class="fake-btn">ส่ง</p>
             </div>
         </div>
 
         <div class="five">
-            <p class="idea-1">That's what I was going to do.</p>
-            <p class="idea-2">But then I stopped.</p>
+            <p class="idea-1">นั่นคือสิ่งที่ผมจะทำ</p>
+            <p class="idea-2">แต่แล้วผมก็หยุด</p>
             <p class="idea-3">
-                I realised, I wanted to do something<br>
-                <strong>special</strong>
+                ผมคิดได้ว่า ผมอยากทำอะไรที่<br>
+                <strong>พิเศษ</strong>
                 .
             </p>
-            <p class="idea-4">Because,</p>
+            <p class="idea-4">เพราะว่า</p>
             <p class="idea-5">
-                You are Special
+                อาจารย์คือคนพิเศษ
                 <span>:)</span>
             </p>
             <p class="idea-6">
@@ -65,11 +77,11 @@
         </div>
 
         <div class="six">
-            <img src="./img/irene.jpg" alt="profile" class="profile-picture" id="imagePath"/>
-            <img src="img/hat.svg" alt="hat" class="hat" />
+            <img src="./img/hareefin.jpg" alt="รูปกลุ่ม" class="profile-picture" id="imagePath" onerror="this.src='./img/profile.jpg'"/>
+            <img src="./img/hat.svg" alt="หมวก" class="hat" onerror="this.style.display='none'" />
             <div class="wish">
-                <h3 class="wish-hbd">Happy Birthday!</h3>
-                <h5 id="wishText">May the js.prototypes always be with you! ;)</h5>
+                <h3 class="wish-hbd">สุขสันต์วันเกิด!</h3>
+                <h5 id="wishText">สุขสันต์วันเกิดย้อนหลังนะครับอาจารย์<br>ขอให้อาจารย์มีความสุขมากๆนะครับ</h5>
             </div>
         </div>
 
@@ -142,8 +154,9 @@
         </div>
 
         <div class="nine">
-            <p>Okay, now come back and tell me if you liked it.</p>
-            <p id="replay">Or click, if you want to watch it again.</p>
+            <p>เอาล่ะ ตอนนี้กลับมาบอกผมทีว่าชอบไหม</p>
+            <p id="replay">หรือคลิก ถ้าอยากดูอีกครั้ง</p>
+            <p>ด้วยความรักจากนักเรียนห้อง ทธด 1/3 </p>
             <p class="last-smile">:)</p>
         </div>
     </div>
@@ -153,6 +166,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
     <!-- Sweetalert -->
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- Three.js for Vanta -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <!-- Vanta Birds -->
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.birds.min.js"></script>
     <script type="application/javascript" src="./script/main.js"></script>
 
 </html>
